@@ -12,7 +12,8 @@ edition = "2018"
 #futures = "*"
 #actix-lua = { git = "https://github.com/geofmureithi/actix-lua" }
 actix-lua = { git = "https://github.com/devg1120/actix-lua2", branch = "main"}
-actix = "0.9"
+#actix = "0.9"
+actix = "0.10"
 actix-rt = "*"
 futures = "0.3"
 tokio = "0.2"

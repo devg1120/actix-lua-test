@@ -7,13 +7,14 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-#actix-lua = "0.7"
+actix-lua = "0.7"
 #actix = "0.7"
 #futures = "*"
 #actix-lua = { git = "https://github.com/geofmureithi/actix-lua" }
-actix-lua = { git = "https://github.com/devg1120/actix-lua2", branch = "main"}
-actix = "0.9"
+#actix-lua = { git = "https://github.com/devg1120/actix-lua2", branch = "main"}
+actix = "0.7"
+#actix = "0.10"
 actix-rt = "*"
 futures = "0.3"
-tokio = "0.2"
+tokio = "0.1"
 rlua = "0.17"

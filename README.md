@@ -88,7 +88,7 @@ async fn main () {
 
 ```
 ---
-# test03  actix-lua2 / actic 0.9 tokio 0.2
+# test03  actix-lua2 / actic 0.10 tokio 0.2
 
 [actix-lua2](https://github.com/devg1120/actix-lua2)
 
