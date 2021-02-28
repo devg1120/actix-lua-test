@@ -25,13 +25,6 @@ fn main () {
         .start();
 
     let res = addr.send(LuaMessage::from(100));
-    // return: 142
-    
-    //match res {
-    //     _ => {println!("ok");
-    //           print_type_of(&res);
-    //     },
-    //}
     
     print_type_of(&res);
 
@@ -49,11 +42,11 @@ fn main () {
 
 }
 
+```
 ---
 # test02  actix-lua2 / actic 0.9 tokio 0.2
 
 [actix-lua2](https://github.com/devg1120/actix-lua2)
-
 
 ```
 extern crate actix_lua;
@@ -66,11 +59,6 @@ fn print_type_of<T>(_: &T) {
     println!("{}", std::any::type_name::<T>())
 }
 
-/*  actix-lua /actix 0.9.0
- *
- * https://github.com/geofmureithi/actix-lua
- * 
- */
 
 #[actix_rt::main] 
 async fn main () {
@@ -103,7 +91,6 @@ async fn main () {
 # test03  actix-lua2 / actic 0.9 tokio 0.2
 
 [actix-lua2](https://github.com/devg1120/actix-lua2)
-
 
 ```
 extern crate actix_lua;
