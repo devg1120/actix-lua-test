@@ -1,5 +1,5 @@
 [package]
-name = "test01"
+name = "test04"
 version = "0.1.0"
 authors = ["devg1120 <devg1120@gmail.com>"]
 edition = "2018"
@@ -9,8 +9,8 @@ edition = "2018"
 [dependencies]
 actix-lua = { git = "https://github.com/devg1120/actix-lua2", branch = "main"}
 actix = "0.10"
-#actix-rt = "*"
 actix-rt = "1.1.1"
+actix_derive = "0.5"
 futures = "0.3"
 tokio = "0.2"
 rlua = "0.17"
