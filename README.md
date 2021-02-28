@@ -2,7 +2,7 @@
 
 [actix-lua](https://github.com/poga/actix-lua)
 
-```
+```rust
 extern crate actix_lua;
 extern crate actix;
 extern crate futures;
@@ -48,7 +48,7 @@ fn main () {
 
 [actix-lua2](https://github.com/devg1120/actix-lua2)
 
-```
+```rust
 extern crate actix_lua;
 extern crate actix;
 extern crate futures;
@@ -92,7 +92,7 @@ async fn main () {
 
 [actix-lua2](https://github.com/devg1120/actix-lua2)
 
-```
+```rust
 extern crate actix_lua;
 extern crate actix;
 extern crate futures;
@@ -147,7 +147,7 @@ fn main () {
 
 ```
 
-```
+```lua
 -- test.lua
 
 return ctx.msg + 45
