@@ -1,0 +1,11 @@
+[package]
+name = "actix-lua-hot-reload"
+version = "0.1.0"
+authors = ["Poga Po <poga.bahamut@gmail.com>"]
+
+[dependencies]
+actix-lua = { git = "https://github.com/devg1120/actix-lua2", branch = "main"}
+actix = "0.10"
+futures = "0.3"
+lazy_static = "1.1.0"
+
